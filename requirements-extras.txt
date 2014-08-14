@@ -11,9 +11,13 @@ pep8
 selenium
 winpdb
 mock
-ipython
 cython
 nose
 nosexcover
 flake8
 raven==4.2.1
+
+# Install also some ipython version if you wish; the line below is
+# commented out since newest ipython versions do not work on
+# Python-2.6 anymore:
+# ipython
